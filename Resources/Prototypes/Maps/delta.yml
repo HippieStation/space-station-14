@@ -1,11 +1,11 @@
 ﻿- type: gameMap
-  id: CorvaxDelta
+  id: Delta
   mapName: 'Delta Station'
-  mapPath: /Maps/corvax_delta.yml
+  mapPath: /Maps/delta.yml
   minPlayers: 40
   stations:
     Delta:
-      mapNameTemplate: '{0} Дельта {1}'
+      mapNameTemplate: '{0} Delta {1}'
       emergencyShuttlePath: /Maps/Shuttles/emergency_delta.yml
       nameGenerator:
         !type:NanotrasenNameGenerator
@@ -22,7 +22,6 @@
         Janitor: [ 1, 2 ]
         Mime: [ 1, 1 ]
         Captain: [ 1, 1 ]
-        IAA: [ 1, 1 ]
         HeadOfPersonnel: [ 1, 1 ]
         ChiefEngineer: [ 1, 1 ]
         StationEngineer: [ 7, 7 ]
