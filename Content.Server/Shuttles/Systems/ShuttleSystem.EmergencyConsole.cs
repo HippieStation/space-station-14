@@ -9,6 +9,7 @@ using Content.Server.UserInterface;
 using Content.Shared.Access.Systems;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
+using Content.Shared.Emag.Systems;
 using Content.Shared.Popups;
 using Content.Shared.Shuttles.BUIStates;
 using Content.Shared.Shuttles.Events;
@@ -84,6 +85,7 @@ public sealed partial class ShuttleSystem
         SubscribeLocalEvent<EmergencyShuttleConsoleComponent, EmergencyShuttleRepealMessage>(OnEmergencyRepeal);
         SubscribeLocalEvent<EmergencyShuttleConsoleComponent, EmergencyShuttleRepealAllMessage>(OnEmergencyRepealAll);
         SubscribeLocalEvent<EmergencyShuttleConsoleComponent, ActivatableUIOpenAttemptEvent>(OnEmergencyOpenAttempt);
+        SubscribeLocalEvent<EmergencyShuttleConsoleComponent, GotEmaggedEvent>(OnEmagged); // Hippie Event
     }
 
     private void OnEmergencyOpenAttempt(EntityUid uid, EmergencyShuttleConsoleComponent component, ActivatableUIOpenAttemptEvent args)
