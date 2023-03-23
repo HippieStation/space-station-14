@@ -88,6 +88,12 @@ public sealed partial class ShuttleSystem
         SubscribeLocalEvent<EmergencyShuttleConsoleComponent, GotEmaggedEvent>(OnEmagged); // Hippie Event
     }
 
+    private void OnEmagged(EntityUid uid, EmergencyShuttleConsoleComponent component, ref GotEmaggedEvent args)
+    {
+        _logger.Add(LogType.EmergencyShuttle, LogImpact.Extreme, $"{ToPrettyString(args.UserUid):player} emagged shuttle console for early launch, what the fuck");
+        EarlyLaunch();
+    }
+
     private void OnEmergencyOpenAttempt(EntityUid uid, EmergencyShuttleConsoleComponent component, ActivatableUIOpenAttemptEvent args)
     {
         // I'm hoping ActivatableUI checks it's open before allowing these messages.
