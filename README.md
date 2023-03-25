@@ -22,7 +22,7 @@ We are not currently accepting translations of the game on our main repository. 
 
 ## Building
 
-1. Clone this repo.
+1. Clone this repo1.
 2. Run `RUN_THIS.py` to init submodules and download the engine.
 3. Compile the solution.
 
