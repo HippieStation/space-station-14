@@ -845,6 +845,19 @@
       - SurplusBundle
 
  # Pointless
+ 
+ 
+ 
+- type: listing
+  id: UplinkCatEars
+  name: uplink-cat-ears-name
+  description: uplink-cat-ears-desc
+  productEntity: ClothingHeadHatCatEarsCursed
+  cost:
+    Telecrystal: 26
+  categories:
+  - UplinkPointless
+  
 
 - type: listing
   id: UplinkRevolverCapGun
