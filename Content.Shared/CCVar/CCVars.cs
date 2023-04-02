@@ -366,6 +366,20 @@ namespace Content.Shared.CCVar
             CVarDef.Create("traitordm.starting_balance", 20);
 
         /*
+        /*
+         * Revolutionary
+         */
+
+        public static readonly CVarDef<int> RevolutionaryMinPlayers =
+            CVarDef.Create("revolutionary.min_players", 15);
+
+        public static readonly CVarDef<int> MaxRevolutionaryHeads =
+            CVarDef.Create("revolutionary.max_heads", 3);
+
+        public static readonly CVarDef<int> HeadsPerRevolutionaryHead =
+            CVarDef.Create("revolutionary.heads_per_revo_head", 1);
+
+        /*
          * Zombie
          */
 
@@ -1237,7 +1251,7 @@ namespace Content.Shared.CCVar
          */
 
         public static readonly CVarDef<string> UILayout =
-            CVarDef.Create("ui.layout", "Default", CVar.CLIENTONLY | CVar.ARCHIVE);
+            CVarDef.Create("Hippiestation.ui.layout", "Separated", CVar.CLIENTONLY | CVar.ARCHIVE);
 
         public static readonly CVarDef<string> DefaultScreenChatSize =
             CVarDef.Create("ui.default_chat_size", "", CVar.CLIENTONLY | CVar.ARCHIVE);

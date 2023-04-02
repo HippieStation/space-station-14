@@ -193,7 +193,7 @@
   parent: BasePlushie
   id: PlushieSharkBlue
   name: blue shark soft toy
-  description: Big and safe to have by your side if you want to discover the world below the surface of the ocean.
+  description: Seeing this fills you with a sudden sense of loathing.
   components:
   - type: Sprite
     sprite: Objects/Fun/sharkplush.rsi
@@ -205,7 +205,7 @@
   parent: PlushieSharkBlue
   id: PlushieSharkPink
   name: pink shark soft toy
-  description: Hehe shonk :)
+  description: Laser Shark
   components:
   - type: Sprite
     sprite: Objects/Fun/sharkplush.rsi
@@ -217,7 +217,7 @@
   parent: PlushieSharkBlue
   id: PlushieSharkGrey
   name: grey shark soft toy
-  description: A quiet, reserved kind of shonk. Loves to ride the grey tide.
+  description: Loves to ride the grey tide.
   components:
   - type: Sprite
     sprite: Objects/Fun/sharkplush.rsi
@@ -351,6 +351,27 @@
   components:
   - type: Sprite
     state: plushie_atmosian
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieFloyd
+  name: George Floyd Plushie
+  description: I can't Sneed.
+  components:
+  - type: Sprite
+    state: plushie_floyd
+  - type: EmitSoundOnUse
+    sound:
+      collection: FloydPlush
+  - type: EmitSoundOnLand
+    sound:
+      collection: FloydPlush
+  - type: EmitSoundOnActivate
+    sound:
+      collection: FloydPlush
+  - type: MeleeWeapon
+    soundHit:
+      collection: FloydPlush
 
 ## Figurines
 
@@ -845,3 +866,24 @@
           base: Sixteen
   - type: StaticPrice
     price: 3
+
+- type: entity
+  parent: BaseItem
+  id: FoamCutlass
+  name: foam cutlass
+  description: Cosplay as a pirate and force your friends to walk the plank.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/cutlass.rsi
+    state: foam_icon
+  - type: MeleeWeapon
+    attackRate: 1.5
+    range: 2.0
+    angle: 0
+    animation: WeaponArcThrust
+    damage:
+      types:
+        Blunt: 0
+  - type: Item
+    size: 15
+    sprite: Objects/Weapons/Melee/cutlass.rsi
