@@ -23363,15 +23363,6 @@ entities:
   - pos: 5.5,4.5
     parent: 1
     type: Transform
-- uid: 1856
-  type: ClothingHeadHatCatEars
-  components:
-  - flags: InContainer
-    type: MetaData
-  - parent: 1666
-    type: Transform
-  - canCollide: False
-    type: Physics
 - uid: 1857
   type: WallReinforced
   components:
@@ -84573,12 +84564,6 @@ entities:
   - pos: -84.5,21.5
     parent: 1
     type: Transform
-- uid: 10535
-  type: ClothingNeckLGBTPin
-  components:
-  - pos: -34.543724,28.416185
-    parent: 1
-    type: Transform
 - uid: 10536
   type: ClothingNeckAromanticPin
   components:
@@ -84591,34 +84576,10 @@ entities:
   - pos: -84.5,20.5
     parent: 1
     type: Transform
-- uid: 10538
-  type: ClothingNeckBisexualPin
-  components:
-  - pos: -14.514383,9.373074
-    parent: 1
-    type: Transform
 - uid: 10539
   type: ClothingNeckIntersexPin
   components:
   - pos: 28.525753,9.397884
-    parent: 1
-    type: Transform
-- uid: 10540
-  type: ClothingNeckLesbianPin
-  components:
-  - pos: 6.5544667,-2.4496374
-    parent: 1
-    type: Transform
-- uid: 10541
-  type: ClothingNeckNonBinaryPin
-  components:
-  - pos: -27.46916,-8.556879
-    parent: 1
-    type: Transform
-- uid: 10543
-  type: ClothingNeckTransPin
-  components:
-  - pos: -54.52713,17.537136
     parent: 1
     type: Transform
 - uid: 10544

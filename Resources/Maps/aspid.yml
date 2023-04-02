@@ -142874,28 +142874,10 @@ entities:
   - pos: -1.5,-13.5
     parent: 1
     type: Transform
-- uid: 17712
-  type: ClothingNeckLGBTPin
-  components:
-  - pos: 14.597307,15.443957
-    parent: 1
-    type: Transform
 - uid: 17713
   type: ClothingNeckAromanticPin
   components:
   - pos: 43.669888,38.451065
-    parent: 1
-    type: Transform
-- uid: 17714
-  type: ClothingNeckAsexualPin
-  components:
-  - pos: 1.4304651,57.357273
-    parent: 1
-    type: Transform
-- uid: 17715
-  type: ClothingNeckBisexualPin
-  components:
-  - pos: -44.6231,38.434673
     parent: 1
     type: Transform
 - uid: 17716
@@ -142903,36 +142885,6 @@ entities:
   components:
   - rot: -1.5707963267948966 rad
     pos: -7.5,-4.5
-    parent: 1
-    type: Transform
-- uid: 17717
-  type: ClothingNeckLesbianPin
-  components:
-  - pos: -16.415733,-15.699648
-    parent: 1
-    type: Transform
-- uid: 17718
-  type: ClothingNeckNonBinaryPin
-  components:
-  - pos: 27.622953,-1.5417068
-    parent: 1
-    type: Transform
-- uid: 17719
-  type: ClothingNeckPansexualPin
-  components:
-  - pos: 21.441319,19.536022
-    parent: 1
-    type: Transform
-- uid: 17720
-  type: ClothingNeckTransPin
-  components:
-  - pos: 19.415567,41.43221
-    parent: 1
-    type: Transform
-- uid: 17721
-  type: ClothingNeckTransPin
-  components:
-  - pos: -4.304539,54.705074
     parent: 1
     type: Transform
 - uid: 17722

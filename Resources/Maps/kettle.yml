@@ -60332,24 +60332,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-- uid: 7133
-  type: ClothingNeckAsexualPin
-  components:
-  - pos: -0.7473192,-39.581512
-    parent: 82
-    type: Transform
-- uid: 7134
-  type: ClothingNeckBisexualPin
-  components:
-  - pos: -51.733475,-28.012512
-    parent: 82
-    type: Transform
-- uid: 7135
-  type: ClothingNeckTransPin
-  components:
-  - pos: -29.219229,-1.5939128
-    parent: 82
-    type: Transform
 - uid: 7136
   type: RandomFoodSingle
   components:
@@ -61225,12 +61207,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-- uid: 7246
-  type: ClothingNeckLesbianPin
-  components:
-  - pos: 16.717562,29.681984
-    parent: 82
-    type: Transform
 - uid: 7247
   type: WallReinforced
   components:
@@ -61265,12 +61241,6 @@ entities:
   type: WallReinforced
   components:
   - pos: 17.5,76.5
-    parent: 82
-    type: Transform
-- uid: 7253
-  type: ClothingNeckPansexualPin
-  components:
-  - pos: 24.309896,47.73986
     parent: 82
     type: Transform
 - uid: 7254
@@ -61450,22 +61420,10 @@ entities:
     type: Transform
   - bodyType: Static
     type: Physics
-- uid: 7279
-  type: ClothingNeckNonBinaryPin
-  components:
-  - pos: -60.491737,42.509815
-    parent: 82
-    type: Transform
 - uid: 7280
   type: ClothingNeckAromanticPin
   components:
   - pos: 29.412611,-17.30906
-    parent: 82
-    type: Transform
-- uid: 7281
-  type: ClothingNeckLGBTPin
-  components:
-  - pos: 78.38637,7.410472
     parent: 82
     type: Transform
 - uid: 7282

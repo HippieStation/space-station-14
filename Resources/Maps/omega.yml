@@ -96498,58 +96498,16 @@ entities:
   - pos: -34.5,10.5
     parent: 0
     type: Transform
-- uid: 12507
-  type: ClothingNeckLGBTPin
-  components:
-  - pos: -44.679893,-28.220144
-    parent: 0
-    type: Transform
 - uid: 12508
   type: ClothingNeckAromanticPin
   components:
   - pos: -57.72657,-9.185339
     parent: 0
     type: Transform
-- uid: 12509
-  type: ClothingNeckAsexualPin
-  components:
-  - pos: -16.43367,32.25639
-    parent: 0
-    type: Transform
-- uid: 12510
-  type: ClothingNeckBisexualPin
-  components:
-  - pos: 4.3485775,50.647896
-    parent: 0
-    type: Transform
 - uid: 12511
   type: ClothingNeckIntersexPin
   components:
   - pos: 19.693497,8.613337
-    parent: 0
-    type: Transform
-- uid: 12512
-  type: ClothingNeckLesbianPin
-  components:
-  - pos: 25.197195,-40.40506
-    parent: 0
-    type: Transform
-- uid: 12513
-  type: ClothingNeckNonBinaryPin
-  components:
-  - pos: 8.410957,-44.59256
-    parent: 0
-    type: Transform
-- uid: 12514
-  type: ClothingNeckPansexualPin
-  components:
-  - pos: -8.7696905,-31.305153
-    parent: 0
-    type: Transform
-- uid: 12515
-  type: ClothingNeckTransPin
-  components:
-  - pos: -14.357392,4.331708
     parent: 0
     type: Transform
 - uid: 12516
