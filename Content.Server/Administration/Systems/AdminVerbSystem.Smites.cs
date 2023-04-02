@@ -560,6 +560,41 @@ public sealed partial class AdminVerbSystem
             };
             args.Verbs.Add(cluwne);
 
+            Verb nyanify = new()
+            {
+                Text = "Nyanify",
+                Category = VerbCategory.Smite,
+                Icon = new SpriteSpecifier.Rsi(new ResourcePath("/Textures/Clothing/Head/Hats/catears.rsi"), "icon"),
+                Act = () =>
+                {
+                    var ears = Spawn("ClothingHeadHatCatEars", Transform(args.Target).Coordinates);
+                    EnsureComp<UnremoveableComponent>(ears);
+                    _inventorySystem.TryUnequip(args.Target, "head", true, true, false, inventory);
+                    _inventorySystem.TryEquip(args.Target, ears, "head", true, true, false, inventory);
+                },
+                Impact = LogImpact.Extreme,
+                Message = Loc.GetString("admin-smite-nyanify-description")
+            };
+            args.Verbs.Add(nyanify);
+
+            Verb maiden = new()
+            {
+                Text = "Maid",
+                Category = VerbCategory.Smite,
+                Icon = new SpriteSpecifier.Rsi(new ResourcePath("/Textures/Clothing/Uniforms/Jumpskirt/janimaid.rsi"), "icon"),
+                Act = () =>
+                {
+                    SetOutfitCommand.SetOutfit(args.Target, "JanitorMaidGear", EntityManager, (_, clothing) =>
+                    {
+                        if (HasComp<ClothingComponent>(clothing))
+                            EnsureComp<UnremoveableComponent>(clothing);
+                        EnsureComp<ClumsyComponent>(args.Target);
+                    });
+                },
+                Impact = LogImpact.Extreme,
+                Message = Loc.GetString("admin-smite-maid-description")
+            };
+            args.Verbs.Add(maiden);
         }
 
         Verb angerPointingArrows = new()

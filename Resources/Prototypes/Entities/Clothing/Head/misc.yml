@@ -152,3 +152,36 @@
   - type: Clothing
     sprite: Clothing/Head/Misc/squiddy.rsi
   - type: IngestionBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCatEars
+  name: cat ears
+  description: "NYAH!"
+  components:
+  - type: Tag
+    tags: # ignore "WhitelistChameleon" tag
+      - DroneUsable
+  - type: Sprite
+    sprite: Clothing/Head/Hats/catears.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/catears.rsi
+  - type: AddAccentClothing
+    accent: OwOAccent
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCatEarsCursed
+  name: cat ears
+  description: "NYAH!"
+  components:
+  - type: Tag
+    tags: # ignore "WhitelistChameleon" tag
+      - DroneUsable
+  - type: Sprite
+    sprite: Clothing/Head/Hats/catears.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/catears.rsi
+  - type: AddAccentClothing
+    accent: OwOAccent
+  - type: StickyClothing
