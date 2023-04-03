@@ -253,6 +253,12 @@ namespace Content.Shared.Interaction
 
             if (!altInteract && TryComp(user, out SharedCombatModeComponent? combatMode) && combatMode.IsInCombatMode)
             {
+                if(target == null) return;
+
+                if(!TryComp<ItemComponent>(target.Value, out var item)) return;
+
+                InteractHand(user, target.Value);
+
                 // Eat the input
                 return;
             }
