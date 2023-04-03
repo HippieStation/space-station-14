@@ -1,9 +1,7 @@
 using Content.Server.Hippie.DestructOnHit.Components;
 using Content.Server.Stunnable;
 using Content.Shared.Damage;
-using Content.Shared.Damage.Prototypes;
 using Content.Shared.Weapons.Melee.Events;
-using Robust.Shared.Prototypes;
 
 namespace Content.Server.Hippie.DestructOnHit.Systems;
 
@@ -12,7 +10,6 @@ public sealed class DestructOnHitSystem : EntitySystem
 
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
     [Dependency] private readonly StunSystem _stunSystem = default!;
-    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
     public override void Initialize()
     {
