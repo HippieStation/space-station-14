@@ -57,6 +57,10 @@
     price: 0
   - type: StackPrice
     price: 5
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 5
 
 - type: entity
   parent: PartRodMetal
