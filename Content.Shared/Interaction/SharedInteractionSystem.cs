@@ -22,6 +22,7 @@ using Content.Shared.Throwing;
 using Content.Shared.Timing;
 using Content.Shared.Verbs;
 using Content.Shared.Wall;
+using Content.Shared.Weapons.Ranged.Components;
 using JetBrains.Annotations;
 using Robust.Shared.Containers;
 using Robust.Shared.Input;
@@ -255,7 +256,14 @@ namespace Content.Shared.Interaction
             {
                 if(target == null) return;
 
-                if(!TryComp<ItemComponent>(target.Value, out var item)) return;
+                if(!TryComp<ItemComponent>(target.Value, out _)) return;
+
+                // We need this because of funny SharedGunSystem realization
+                if (TryComp<GunComponent>(target.Value, out var gunComponent))
+                {
+                    gunComponent.NextFire = _gameTiming.CurTime + TimeSpan.FromMilliseconds(125);
+                    Dirty(gunComponent);
+                }
 
                 InteractHand(user, target.Value);
 
