@@ -32,6 +32,10 @@
   - type: Spillable
     solution: drink
   - type: ItemCooldown
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 1
 
 - type: entity
   parent: DrinkBaseCup

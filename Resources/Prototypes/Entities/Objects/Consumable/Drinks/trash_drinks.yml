@@ -64,6 +64,18 @@
     - Trash
   - type: Recyclable
   - type: SpaceGarbage
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 1
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: DestructOnHit
+    shouldBreak: true
+    shouldStun: true
+    damage:
+      types:
+        Blunt: 10
 
 # Containers
 - type: entity

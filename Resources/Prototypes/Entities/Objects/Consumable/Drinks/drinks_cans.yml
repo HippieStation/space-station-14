@@ -49,6 +49,10 @@
   - type: SpaceGarbage
   - type: TrashOnEmpty
     solution: drink
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 1
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -361,7 +365,7 @@
     sprite: Objects/Consumable/Drinks/shamblersjuice.rsi
   - type: Item
     sprite: Objects/Consumable/Drinks/shamblersjuice.rsi
-    
+
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkPwrGameCan

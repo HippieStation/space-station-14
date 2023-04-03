@@ -7,6 +7,10 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shinyflask.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
 
 - type: entity
   parent: DrinkBase
@@ -25,6 +29,10 @@
           Quantity: 50
   - type: TrashOnEmpty
     solution: drink
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
 
 - type: entity
   parent: DrinkBase
@@ -35,6 +43,10 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/detflask.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
 
 - type: entity
   parent: DrinkBase
@@ -45,6 +57,10 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/flask.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
 
 - type: entity
   parent: DrinkBase
@@ -55,6 +71,10 @@
     - type: Drink
     - type: Sprite
       sprite: Objects/Consumable/Drinks/barflask.rsi
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 3
 
 - type: entity
   parent: DrinkBase
@@ -65,6 +85,10 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/flask_old.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
 
 - type: entity
   parent: DrinkBase
@@ -75,6 +99,10 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lithiumflask.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
 
 - type: entity
   parent: DrinkBase
@@ -85,3 +113,7 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vacuumflask.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
