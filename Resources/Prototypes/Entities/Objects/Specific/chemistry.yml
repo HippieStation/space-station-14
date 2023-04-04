@@ -83,6 +83,17 @@
         Blunt: 5
   - type: StaticPrice
     price: 30
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 3
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: DestructOnHit
+    shouldBreak: true
+    damage:
+      types:
+        Blunt: 10
 
 - type: entity
   name: beaker
@@ -122,6 +133,8 @@
     fillBaseName: beakerlarge
   - type: StaticPrice
     price: 40
+  - type: DestructOnHit
+    shouldBreak: false
 
 - type: entity
   name: cryostasis beaker
@@ -155,6 +168,8 @@
     tags:
     - GlassBeaker
     - Cryobeaker
+  - type: DestructOnHit
+    shouldBreak: false
 
 - type: entity
   name: bluespace beaker
@@ -173,6 +188,8 @@
       beaker:
         maxVol: 300
         canMix: true
+  - type: DestructOnHit
+    shouldBreak: false
 
 - type: entity
   name: dropper
