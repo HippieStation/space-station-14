@@ -31,6 +31,10 @@
       - DroneUsable
   - type: Appearance
   - type: PowerCellVisuals
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 1
 
 - type: entity
   name: potato battery

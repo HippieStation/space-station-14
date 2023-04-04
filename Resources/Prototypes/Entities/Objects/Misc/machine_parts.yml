@@ -13,6 +13,10 @@
     - type: GuideHelp
       guides:
       - MachineUpgrading
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 1
 
 # Rating 1
 
