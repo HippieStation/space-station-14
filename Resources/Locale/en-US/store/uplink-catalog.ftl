@@ -15,7 +15,7 @@ uplink-gypshy-boxing-gloves-name = gypshy Boxing Gloves
 uplink-gypshy-boxing-gloves-desc = Purchase these if you want to bash a felinids skull in. Really strong gloves like really strong.
 
 uplink-esword-name = Energy Sword
-uplink-esword-desc = A very dangerous energy sword. Can be stored in pockets when turned off. Makes a lot of noise when used or turned on.
+uplink-esword-desc = A very dangerous energy sword that can reflect shots. Can be stored in pockets when turned off. Makes a lot of noise when used or turned on.
 
 uplink-hfblade-name = High Frequency Blade
 uplink-hfblade-desc = An electric katana that weakens the molecular bonds of whatever it touches. Perfect for slicing off the limbs of your coworkers. Avoid using a multitool on it.
