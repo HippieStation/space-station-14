@@ -83,6 +83,12 @@
         Blunt: 5
   - type: StaticPrice
     price: 30
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 3
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
   name: beaker
@@ -92,6 +98,11 @@
   components:
   - type: Spillable
     solution: beaker
+  - type: DestructOnHit
+    shouldBreak: true
+    damage:
+      types:
+        Blunt: 10
 
 - type: entity
   name: large beaker

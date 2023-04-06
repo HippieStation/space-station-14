@@ -41,6 +41,10 @@
             max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 5
 
 - type: entity
   parent: SheetGlassBase
