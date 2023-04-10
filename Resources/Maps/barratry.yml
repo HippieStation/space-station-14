@@ -84576,12 +84576,6 @@ entities:
   - pos: -84.5,20.5
     parent: 1
     type: Transform
-- uid: 10539
-  type: ClothingNeckIntersexPin
-  components:
-  - pos: 28.525753,9.397884
-    parent: 1
-    type: Transform
 - uid: 10544
   type: PhoneInstrument
   components:

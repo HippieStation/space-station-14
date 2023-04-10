@@ -108839,12 +108839,6 @@ entities:
   - pos: -28.5,-18.5
     parent: 6
     type: Transform
-- uid: 14059
-  type: ClothingNeckIntersexPin
-  components:
-  - pos: 13.362957,-45.52958
-    parent: 6
-    type: Transform
 - uid: 14061
   type: GrilleBroken
   components:

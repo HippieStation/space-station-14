@@ -96504,12 +96504,6 @@ entities:
   - pos: -57.72657,-9.185339
     parent: 0
     type: Transform
-- uid: 12511
-  type: ClothingNeckIntersexPin
-  components:
-  - pos: 19.693497,8.613337
-    parent: 0
-    type: Transform
 - uid: 12516
   type: VendingMachineEngiDrobe
   components:

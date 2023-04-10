@@ -61153,12 +61153,6 @@ entities:
   - pos: 19.5,77.5
     parent: 82
     type: Transform
-- uid: 7238
-  type: ClothingNeckIntersexPin
-  components:
-  - pos: -28.35835,5.4578533
-    parent: 82
-    type: Transform
 - uid: 7239
   type: CableApcExtension
   components:

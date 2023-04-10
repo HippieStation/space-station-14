@@ -36291,12 +36291,6 @@ entities:
   - pos: -0.59446716,-0.80342096
     parent: 1
     type: Transform
-- uid: 4027
-  type: ClothingNeckIntersexPin
-  components:
-  - pos: -0.6386776,-0.42031726
-    parent: 1
-    type: Transform
 - uid: 4028
   type: Railing
   components:

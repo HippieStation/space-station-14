@@ -188791,12 +188791,6 @@ entities:
   - pos: -45.5,-3.5
     parent: 60
     type: Transform
-- uid: 24088
-  type: ClothingNeckIntersexPin
-  components:
-  - pos: -12.770909,19.336336
-    parent: 60
-    type: Transform
 - uid: 24089
   type: ClothingNeckAromanticPin
   components:
