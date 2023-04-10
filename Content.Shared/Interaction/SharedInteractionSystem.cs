@@ -22,6 +22,7 @@ using Content.Shared.Throwing;
 using Content.Shared.Timing;
 using Content.Shared.Verbs;
 using Content.Shared.Wall;
+using Content.Shared.Weapons.Ranged.Components;
 using JetBrains.Annotations;
 using Robust.Shared.Containers;
 using Robust.Shared.Input;
@@ -253,6 +254,19 @@ namespace Content.Shared.Interaction
 
             if (!altInteract && TryComp(user, out SharedCombatModeComponent? combatMode) && combatMode.IsInCombatMode)
             {
+                if(target == null) return;
+
+                if(!TryComp<ItemComponent>(target.Value, out _)) return;
+
+                // We need this because of funny SharedGunSystem realization
+                if (TryComp<GunComponent>(target.Value, out var gunComponent))
+                {
+                    gunComponent.NextFire = _gameTiming.CurTime + TimeSpan.FromMilliseconds(125);
+                    Dirty(gunComponent);
+                }
+
+                InteractHand(user, target.Value);
+
                 // Eat the input
                 return;
             }
@@ -784,7 +798,6 @@ namespace Content.Shared.Interaction
                 return;
 
             // all interactions should only happen when in range / unobstructed, so no range check is needed
-            //TODO: See why this is firing off multiple times
             var interactUsingEvent = new InteractUsingEvent(user, used, target, clickLocation);
             RaiseLocalEvent(target, interactUsingEvent, true);
             DoContactInteraction(user, used, interactUsingEvent);

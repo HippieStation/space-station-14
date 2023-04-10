@@ -28,6 +28,10 @@
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
 
 - type: entity
   parent: SheetMetalBase

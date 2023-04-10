@@ -20,3 +20,7 @@
     node: boxcardboard
     containers:
       - entity_storage
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 1

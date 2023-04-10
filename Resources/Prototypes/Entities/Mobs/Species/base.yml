@@ -5,6 +5,7 @@
   id: BaseMobOrganic
   noSpawn: true
   components:
+  - type: DeathGasp
   - type: LagCompensation
   - type: RangedDamageSound
     soundGroups:
@@ -65,7 +66,7 @@
     bloodlossHealDamage:
       types:
         Bloodloss:
-          -0.25
+          -1
   - type: Stamina
   - type: StatusEffects
     allowed:

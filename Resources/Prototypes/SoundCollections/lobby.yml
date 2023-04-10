@@ -1,8 +1,30 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/Lobby/thunderdome.ogg
+    - /Audio/Lobby/02___Ho_Ho_Ho_It's_Christmas_Time.ogg
     - /Audio/Lobby/absconditus.ogg
+    - /Audio/Lobby/Aritus__-_Keep.ogg
+    - /Audio/Lobby/Artificial_Intelligence_Bomb.ogg
+    - /Audio/Lobby/attributions.yml
+    - /Audio/Lobby/Audiodoctor_-_Raw_Imagination.ogg
+    - /Audio/Lobby/Chemical_Bomb.ogg
+    - /Audio/Lobby/Clown.wmv.ogg
+    - /Audio/Lobby/comet_haley.ogg
+    - /Audio/Lobby/discarded_-_arel_(miami_uncut).ogg
+    - /Audio/Lobby/endless_space.ogg
+    - /Audio/Lobby/Fatlip-_Whats_Up_Fat_lip__(Lyrics).ogg
+    - /Audio/Lobby/flip-flap.txt
+    - /Audio/Lobby/Gran_Turismo_3_-_Concentration.ogg
+    - /Audio/Lobby/Jackson_and_His_Computerband_-_'SMASH'_-_Minidoux.ogg
+    - /Audio/Lobby/K.K._Good_Day_(KK_Slider_vs_Ice_Cube).ogg
+    - /Audio/Lobby/MACHO_MADNESS_FOREVER_(A_musical_tribute_to_the_late_Macho_Man_Randy_Savage).ogg
+    - /Audio/Lobby/Mac_DeMarco___On_the_Level_(Official_Audio).ogg
+    - /Audio/Lobby/Meltdown_-_The_Aquabats.ogg
+    - /Audio/Lobby/mod.flip-flap.ogg
+    - /Audio/Lobby/Moonbase_Oddity.ogg
+    - /Audio/Lobby/SAINT_PEPSI_-_Better.ogg
+    - /Audio/Lobby/SAINT_PEPSI_-_ENJOY_YOURSELF_(Music_Video_REUPLOAD).ogg
+    - /Audio/Lobby/SAINT_PEPSI_-_Skylar_Spence.ogg
     - /Audio/Lobby/space_asshole.ogg
     - /Audio/Lobby/endless_space.ogg
     - /Audio/Lobby/title3.ogg

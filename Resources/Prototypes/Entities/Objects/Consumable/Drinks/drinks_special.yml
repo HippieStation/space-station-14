@@ -29,6 +29,10 @@
     interfaces:
     - key: enum.TransferAmountUiKey.Key
       type: TransferAmountBoundUserInterface
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
 
 - type: entity
   parent: DrinkGlassBase
@@ -58,6 +62,17 @@
   - type: SolutionContainerVisuals
     maxFillLevels: 2
     fillBaseName: fill
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 1
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: DestructOnHit
+    shouldBreak: true
+    damage:
+      types:
+        Blunt: 10
 
 - type: entity
   parent: DrinkGlassBase
@@ -68,6 +83,10 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 1
 
 - type: entity
   parent: DrinkGlassBase
@@ -78,3 +97,7 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar_what.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 1
