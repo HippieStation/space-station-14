@@ -530,23 +530,6 @@ public sealed partial class AdminVerbSystem
         }
 
         if (TryComp<InventoryComponent>(args.Target, out var inventory)) {
-            Verb nyanify = new()
-            {
-                Text = "Nyanify",
-                Category = VerbCategory.Smite,
-                Icon = new SpriteSpecifier.Rsi(new ResourcePath("/Textures/Clothing/Head/Hats/catears.rsi"), "icon"),
-                Act = () =>
-                {
-                    var ears = Spawn("ClothingHeadHatCatEars", Transform(args.Target).Coordinates);
-                    EnsureComp<UnremoveableComponent>(ears);
-                    _inventorySystem.TryUnequip(args.Target, "head", true, true, false, inventory);
-                    _inventorySystem.TryEquip(args.Target, ears, "head", true, true, false, inventory);
-                },
-                Impact = LogImpact.Extreme,
-                Message = Loc.GetString("admin-smite-nyanify-description")
-            };
-            args.Verbs.Add(nyanify);
-
             Verb killSign = new()
             {
                 Text = "Kill sign",
@@ -576,6 +559,23 @@ public sealed partial class AdminVerbSystem
                 Message = Loc.GetString("admin-smite-cluwne-description")
             };
             args.Verbs.Add(cluwne);
+
+            Verb nyanify = new()
+            {
+                Text = "Nyanify",
+                Category = VerbCategory.Smite,
+                Icon = new SpriteSpecifier.Rsi(new ResourcePath("/Textures/Clothing/Head/Hats/catears.rsi"), "icon"),
+                Act = () =>
+                {
+                    var ears = Spawn("ClothingHeadHatCatEars", Transform(args.Target).Coordinates);
+                    EnsureComp<UnremoveableComponent>(ears);
+                    _inventorySystem.TryUnequip(args.Target, "head", true, true, false, inventory);
+                    _inventorySystem.TryEquip(args.Target, ears, "head", true, true, false, inventory);
+                },
+                Impact = LogImpact.Extreme,
+                Message = Loc.GetString("admin-smite-nyanify-description")
+            };
+            args.Verbs.Add(nyanify);
 
             Verb maiden = new()
             {

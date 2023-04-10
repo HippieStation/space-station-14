@@ -143,6 +143,18 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatSquid
+  name: squiddy
+  description: "Scare your friends with this eldritch mask."
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/squiddy.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/squiddy.rsi
+  - type: IngestionBlocker
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatCatEars
   name: cat ears
   description: "NYAH!"
@@ -173,15 +185,3 @@
   - type: AddAccentClothing
     accent: OwOAccent
   - type: StickyClothing
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHatSquid
-  name: squiddy
-  description: "Scare your friends with this eldritch mask."
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Misc/squiddy.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Misc/squiddy.rsi
-  - type: IngestionBlocker

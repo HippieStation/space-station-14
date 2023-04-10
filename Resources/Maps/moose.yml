@@ -47162,12 +47162,6 @@ entities:
   - pos: -36.361042,-18.306019
     parent: 6
     type: Transform
-- uid: 6188
-  type: ClothingNeckLGBTPin
-  components:
-  - pos: -61.384766,-13.488897
-    parent: 6
-    type: Transform
 - uid: 6189
   type: Hemostat
   components:
@@ -108791,12 +108785,6 @@ entities:
   - pos: -52.55785,-17.405437
     parent: 6
     type: Transform
-- uid: 14049
-  type: ClothingNeckAsexualPin
-  components:
-  - pos: -42.895363,-52.494324
-    parent: 6
-    type: Transform
 - uid: 14050
   type: TableGlass
   components:
@@ -108849,18 +108837,6 @@ entities:
   type: TableGlass
   components:
   - pos: -28.5,-18.5
-    parent: 6
-    type: Transform
-- uid: 14059
-  type: ClothingNeckIntersexPin
-  components:
-  - pos: 13.362957,-45.52958
-    parent: 6
-    type: Transform
-- uid: 14060
-  type: ClothingNeckNonBinaryPin
-  components:
-  - pos: 6.37096,8.389981
     parent: 6
     type: Transform
 - uid: 14061
@@ -110427,24 +110403,6 @@ entities:
   type: BananaPhoneInstrument
   components:
   - pos: 14.567757,-18.423681
-    parent: 6
-    type: Transform
-- uid: 14280
-  type: ClothingNeckLesbianPin
-  components:
-  - pos: 16.498747,-16.490376
-    parent: 6
-    type: Transform
-- uid: 14281
-  type: ClothingNeckPansexualPin
-  components:
-  - pos: -9.642922,-9.590724
-    parent: 6
-    type: Transform
-- uid: 14282
-  type: ClothingNeckTransPin
-  components:
-  - pos: -17.984644,8.731195
     parent: 6
     type: Transform
 - uid: 14283

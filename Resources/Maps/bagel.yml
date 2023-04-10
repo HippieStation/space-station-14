@@ -49270,12 +49270,6 @@ entities:
     pos: -11.5,-53.5
     parent: 60
     type: Transform
-- uid: 5166
-  type: ClothingNeckTransPin
-  components:
-  - pos: -8.970711,16.51249
-    parent: 60
-    type: Transform
 - uid: 5167
   type: AirlockGlass
   components:
@@ -64750,12 +64744,6 @@ entities:
   type: WallReinforced
   components:
   - pos: 3.5,-46.5
-    parent: 60
-    type: Transform
-- uid: 7174
-  type: ClothingNeckLGBTPin
-  components:
-  - pos: -11.221505,22.789167
     parent: 60
     type: Transform
 - uid: 7175
@@ -110388,12 +110376,6 @@ entities:
   type: WallSolid
   components:
   - pos: 21.5,-39.5
-    parent: 60
-    type: Transform
-- uid: 13569
-  type: ClothingNeckNonBinaryPin
-  components:
-  - pos: -6.8039737,15.288539
     parent: 60
     type: Transform
 - uid: 13570
@@ -188809,28 +188791,10 @@ entities:
   - pos: -45.5,-3.5
     parent: 60
     type: Transform
-- uid: 24086
-  type: ClothingNeckLesbianPin
-  components:
-  - pos: -10.308835,13.564301
-    parent: 60
-    type: Transform
-- uid: 24088
-  type: ClothingNeckIntersexPin
-  components:
-  - pos: -12.770909,19.336336
-    parent: 60
-    type: Transform
 - uid: 24089
   type: ClothingNeckAromanticPin
   components:
   - pos: 83.621025,-13.51627
-    parent: 60
-    type: Transform
-- uid: 24090
-  type: ClothingNeckBisexualPin
-  components:
-  - pos: -20.494595,5.7531924
     parent: 60
     type: Transform
 - uid: 24091
