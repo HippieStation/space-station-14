@@ -548,6 +548,11 @@
 - type: Tag
   id: Smokable
 
+# HIPPIE EDIT BEGINN
+- type: Tag
+  id: SMImmune
+# HIPPIE EDIT END
+
 - type: Tag
   id: Soap
 
