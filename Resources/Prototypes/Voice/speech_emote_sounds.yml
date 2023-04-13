@@ -8,6 +8,22 @@
       collection: MaleScreams
     Laugh:
       collection: MaleLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Yawn:
+      collection: MaleYawn
+    Snore:
+      collection: Snores
     Fart:
       collection: Farts
 
@@ -20,8 +36,6 @@
       collection: FemaleScreams
     Laugh:
       collection: FemaleLaugh
-    Fart:
-      collection: Farts
 
 - type: emoteSounds
   id: UnisexReptilian
