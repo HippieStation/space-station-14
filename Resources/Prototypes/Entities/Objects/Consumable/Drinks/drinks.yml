@@ -75,12 +75,6 @@
   - type: PhysicalComposition
     materialComposition:
       Glass: 25
-  - type: MeleeWeapon
-    damage:
-      types:
-        Slash: 1
-    soundHit:
-      path: /Audio/Weapons/bladeslice.ogg
   - type: DestructOnHit
     shouldBreak: true
     damage:

@@ -72,12 +72,6 @@
     materialComposition:
       Glass: 100
   - type: SpaceGarbage
-  - type: MeleeWeapon
-    damage:
-      types:
-        Slash: 1
-    soundHit:
-      path: /Audio/Weapons/bladeslice.ogg
   - type: DestructOnHit
     shouldBreak: true
     shouldStun: true

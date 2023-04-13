@@ -57,10 +57,6 @@
   - type: PhysicalComposition
     materialComposition:
       Steel: 50 #reduce, reuse, recycle
-  - type: MeleeWeapon
-    damage:
-      types:
-        Blunt: 1
 
 - type: entity
   parent: DrinkCanBaseFull

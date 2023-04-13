@@ -38,10 +38,6 @@
       types:
         Blunt: 0
   - type: ItemCooldown
-  - type: MeleeWeapon
-    damage:
-      types:
-        Blunt: 1
 
 - type: entity
   parent: DrinkBaseCup
