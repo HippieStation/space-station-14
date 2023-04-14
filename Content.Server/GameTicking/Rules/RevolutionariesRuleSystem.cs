@@ -53,12 +53,11 @@ public sealed class RevolutionaryRuleSystem : GameRuleSystem
         SubscribeLocalEvent<PlayerSpawnCompleteEvent>(GetHead);
     }
 
+    /// <summary>
+    ///     Adds every player that is head of staff to a list
+    /// </summary>
     private void GetHead(PlayerSpawnCompleteEvent ev) // ;)
     {
-        /// <summary>
-        ///     Adds every player that is head of staff to a list
-        /// </summary>
-
         var mind = ev.Player.Data.ContentData()?.Mind;
 
         if (mind is null)
@@ -79,7 +78,8 @@ public sealed class RevolutionaryRuleSystem : GameRuleSystem
                 }
             }
         }
-        foreach (var accessgroups in mind.CurrentJob.Prototype.AccessGroups)
+
+        foreach (var accessgroups in mind!.CurrentJob.Prototype.AccessGroups)
         {
             if (accessgroups == "AllAccess")
             {
