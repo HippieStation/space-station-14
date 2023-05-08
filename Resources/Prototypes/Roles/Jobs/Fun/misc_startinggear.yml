@@ -178,10 +178,3 @@
   innerclothingskirt: ClothingUniformJumpsuitColorBrown
   satchel: ClothingBackpackDuffelCBURN
   duffelbag: ClothingBackpackDuffelCBURN
-
-#Revolutionary Head
-- type: startingGear
-  id: RevoHeadGear
-  equipment:
-    pocket1: RevolutionaryFlash
-    eyes: ClothingEyesGlassesSunglasses
