@@ -54,6 +54,18 @@
     - giggled
 
 - type: emote
+  id: Sigh
+  category: Vocal
+  chatMessages: [sighs]
+  chatTriggers:
+    - sigh
+    - sighs
+    - sighed
+    - sigh.
+    - sighs.
+    - sighed.
+
+- type: emote
   id: Fart
   category: Vocal
   chatMessages: [farts, lets out a massive fart]
