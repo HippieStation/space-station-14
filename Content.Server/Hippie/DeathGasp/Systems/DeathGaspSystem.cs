@@ -37,5 +37,5 @@ public sealed class DeathGaspSystem : EntitySystem
         => comp.DeathGaspMessages[_random.Next(comp.DeathGaspMessages.Length)];
 
     private void SendDeathGaspMessage(EntityUid uid, string message)
-        => _chat.TrySendInGameICMessage(uid, message, InGameICChatType.Emote, false, force: true);
+        => _chat.TrySendInGameICMessage(uid, message, InGameICChatType.Emote, ChatTransmitRange.Normal, force: true);
 }
