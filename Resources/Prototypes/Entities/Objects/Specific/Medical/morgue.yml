@@ -110,6 +110,9 @@
   - type: Tag
     tags:
     - Trash
+# HIPPIE EDIT BEGINN
+    - SMImmune
+# HIPPIE EDIT END
   - type: SolutionContainerManager
     solutions:
       food:

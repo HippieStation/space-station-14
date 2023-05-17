@@ -36,7 +36,9 @@
       mask:
       - FullTileMask
       layer:
-      - GlassLayer
+# HIPPIE EDIT BEGINN - GlassLayer
+      - GlassAirlockLayer
+# HIPPIE EDIT END
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Glass
@@ -132,7 +134,9 @@
       mask:
       - FullTileMask
       layer:
-      - GlassLayer
+# HIPPIE EDIT BEGINN - GlassLayer
+      - GlassAirlockLayer
+# HIPPIE EDIT END
   - type: Repairable
   - type: Damageable
     damageContainer: Inorganic
