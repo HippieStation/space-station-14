@@ -39,7 +39,7 @@
     materialComposition:
       Steel: 100
   - type: StaticPrice
-    price: 40
+    price: 30
 
 - type: entity
   name: screwdriver
@@ -81,7 +81,7 @@
     materialComposition:
       Steel: 100
   - type: StaticPrice
-    price: 40
+    price: 30
 
 - type: entity
   name: wrench
@@ -116,7 +116,7 @@
     materialComposition:
       Steel: 100
   - type: StaticPrice
-    price: 40
+    price: 22
 
 - type: entity
   name: crowbar
@@ -152,7 +152,7 @@
     materialComposition:
       Steel: 100
   - type: StaticPrice
-    price: 40
+    price: 22
 
 - type: entity
   name: emergency crowbar
@@ -196,6 +196,18 @@
   - type: Tool
     qualities:
       - Pulsing
+  - type: NetworkConfigurator
+  - type: ActivatableUI
+    key: enum.NetworkConfiguratorUiKey.List
+    inHandsOnly: true
+  - type: UserInterface
+    interfaces:
+      - key: enum.NetworkConfiguratorUiKey.List
+        type: NetworkConfiguratorBoundUserInterface
+      - key: enum.NetworkConfiguratorUiKey.Configure
+        type: NetworkConfiguratorBoundUserInterface
+      - key: enum.NetworkConfiguratorUiKey.Link
+        type: NetworkConfiguratorBoundUserInterface
   - type: Tag
     tags:
       - Multitool
@@ -205,7 +217,7 @@
       Steel: 100
       Plastic: 100
   - type: StaticPrice
-    price: 60
+    price: 56
 
 - type: entity
   name: network configurator
@@ -253,7 +265,7 @@
       tags:
         - DroneUsable
     - type: StaticPrice
-      price: 60
+      price: 56
     - type: GuideHelp
       guides:
         - NetworkConfigurator
