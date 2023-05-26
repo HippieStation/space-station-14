@@ -36,6 +36,7 @@
     energy: 2
     color: "#fca3c0"
   - type: Appearance
+  - type: WiresPanel
   - type: Wires
     BoardName: "Vessel"
     LayoutId: Vessel
@@ -124,14 +125,15 @@
     noRot: false
   - type: Fixtures
     fixtures:
-    - shape:
-        !type:PhysShapeCircle
-        radius: 0.35
-      density: 50
-      mask:
-      - MachineMask
-      layer:
-      - MachineLayer
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 50
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
   - type: Rotatable
     rotateWhileAnchored: true
   - type: Machine
@@ -166,6 +168,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: Appearance
+  - type: WiresPanel
   - type: WiresVisuals
   - type: Wires
     BoardName: "Ape"
@@ -231,17 +234,19 @@
     - Plasma
   - type: Fixtures
     fixtures:
-    - shape:
-        !type:PhysShapeAabb
-        bounds: "-1.5,-0.5,1.5,0.6"
-      density: 50
-      mask:
-      - LargeMobMask
-      layer:
-      - WallLayer
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.5,-0.5,1.5,0.6"
+        density: 50
+        mask:
+        - LargeMobMask
+        layer:
+        - WallLayer
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 5
+  - type: WiresPanel
   - type: Wires
     BoardName: "AnomalyGenerator"
     LayoutId: AnomalyGenerator

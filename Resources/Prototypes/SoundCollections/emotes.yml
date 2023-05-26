@@ -32,6 +32,16 @@
     - /Audio/Voice/Diona/diona_rustle3.ogg
 
 - type: soundCollection
+  id: MaleSigh
+  files:
+    - /Audio/Voice/Human/male_sigh.ogg
+
+- type: soundCollection
+  id: FemaleSigh
+  files:
+    - /Audio/Voice/Human/female_sigh.ogg
+
+- type: soundCollection
   id: Farts
   files:
     - /Audio/Effects/Emotes/fart.ogg

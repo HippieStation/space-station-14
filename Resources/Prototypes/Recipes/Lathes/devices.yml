@@ -51,7 +51,7 @@
 
 - type: latheRecipe
   id: AnomalyLocator
-  result: AnomalyLocatorNoBattery
+  result: AnomalyLocatorEmpty
   completetime: 3
   materials:
     Steel: 400
@@ -64,3 +64,59 @@
   materials:
     Plastic: 200
     Glass: 150
+
+- type: latheRecipe
+  id: WeaponPistolCHIMP
+  result: WeaponPistolCHIMP
+  completetime: 5
+  materials:
+    Steel: 500
+    Glass: 400
+
+- type: latheRecipe
+  id: ClothingBackpackHolding
+  result: ClothingBackpackHolding
+  completetime: 5
+  materials:
+    Steel: 2000
+    Silver: 750
+    Plasma: 1500
+    Uranium: 1500
+
+- type: latheRecipe
+  id: ClothingBackpackSatchelHolding
+  result: ClothingBackpackSatchelHolding
+  completetime: 5
+  materials:
+    Steel: 2000
+    Silver: 750
+    Plasma: 1500
+    Uranium: 1500
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelHolding
+  result: ClothingBackpackDuffelHolding
+  completetime: 5
+  materials:
+    Steel: 2000
+    Silver: 750
+    Plasma: 1500
+    Uranium: 1500
+
+- type: latheRecipe
+  id: WeaponForceGun
+  result: WeaponForceGun
+  completetime: 5
+  materials:
+    Steel: 500
+    Glass: 400
+    Silver: 200
+
+- type: latheRecipe
+  id: WeaponTetherGun
+  result: WeaponTetherGun
+  completetime: 5
+  materials:
+    Steel: 500
+    Glass: 400
+    Silver: 100
