@@ -73,7 +73,7 @@ namespace Content.Client.Lobby
             };
 
             LayoutContainer.SetAnchorPreset(_lobby, LayoutContainer.LayoutPreset.Wide);
-            _lobby.ServerName.Text = "Hippie Station Official Server"; //The eye of refactor gazes upon you...
+            _lobby.ServerName.Text = "Atlas Station Official Server"; //The eye of refactor gazes upon you...
             UpdateLobbyUi();
 
             _lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
